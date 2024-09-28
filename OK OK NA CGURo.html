@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sinks R Us is your one-stop shop for all types of sinks. Explore our collection of high-quality sinks with various features to suit your kitchen or bathroom.">
+    <title>Sinks Our Us - High-Quality Sinks for Every Need</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Primary Navigation">
+            <div class="nav-left">
+                <a href="#" class="nav-link home-link">Home</a>
+                <a href="#Types-of-Sinks" class="nav-link">Types of Sinks</a>
+                <a href="#features" class="nav-link">Features</a>
+            </div>
+            <h1 class="site-title">Sinks Our Us</h1>
+            <div class="nav-right">
+                <a href="#About" class="nav-link">About Us</a>
+                <a href="#Contact" class="nav-link">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2 class="visually-hidden">Welcome to Sinks Our Us</h2>
+            <div class="sink1">
+                <p id="quote">Your ultimate destination for a premium selection of sinks that combine style, functionality, and durability.</p>
+            </div>
+        </section>
+
+        <section id="About" aria-labelledby="about-title">
+            <h2 id="about-title">About Our Sinks</h2>
+            <div class="sink2">
+                <p id="Description">
+                    At Sinks Our Us, we take pride in offering an extensive selection of sinks designed to meet every need and preference. 
+                    Whether you prefer timeless classic designs or contemporary styles, our collection has something for everyone. 
+                    Crafted from high-quality materials, Each sink is built to withstand the rigors of daily use while enhancing your kitchen or bathroom with elegance.
+                    Explore our wide variety and find the perfect sink that combines style, functionality, and craftsmanship!
+                </p>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="Types-of-Sinks" aria-labelledby="types-title">
+            <h3 id="types-title">Types of Sinks</h3>
+            <p id="TSD">
+                Explore our extensive range of sinks, including undermount, farmhouse, and vessel sinks. 
+                Each type features unique attributes to enhance your kitchen or bathroom design.
+            </p>
+
+            <div class="sink-gallery">
+                <figure class="sink-item">
+                    <img src="c:\Users\ASUS\Downloads\sink1.jpg" alt="Modern undermount sink example">
+                    <figcaption>Undermount Sink</figcaption>
+                </figure>
+                <figure class="sink-item">
+                    <img src="c:\Users\ASUS\Downloads\sink2.jpg" alt="Farmhouse sink example">
+                    <figcaption>Farmhouse Sink</figcaption>
+                </figure>
+                <figure class="sink-item">
+                    <img src="c:\Users\ASUS\Downloads\sink3.jpeg" alt="Vessel sink example">
+                    <figcaption>Vessel Sink</figcaption> 
+                </figure>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="features" aria-labelledby="features-title">
+            <h4 id="features-title">Features and Benefits</h4>
+            <p id="FB">
+                At Sinks Our Us, we believe in providing products that marry elegance with functionality. 
+                Our sinks are expertly crafted from premium materials, ensuring they stand the test of time while enhancing your kitchen or bathroom.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sinks Our Us | <a href="#Contact">Contact Us</a></p>
+    </footer>
+</body>
+</html>
+<style>
+    {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; 
+    color: #333; 
+}
+
+header {
+    background-color: #000;
+    padding: 10px 5%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link {
+    color: rgb(192, 29, 29);
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: rgb(192, 29, 29);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+.site-title {
+    font-size: 2.5rem;
+    color: rgb(192, 29, 29);
+    text-align: center; /* Center align title for better aesthetics */
+}
+
+.intro {
+    position: relative;
+}
+
+#quote {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #010000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.sink1 {
+    background-image: url('images/sink1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sink2 {
+    background-image: url('images/sink2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2, h3, h4 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(32, 32, 32);
+    margin: 20px 0;
+    padding: 20px 0; /* Add padding for better spacing */
+}
+
+#Description, #TSD, #FB {
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(17, 16, 16);
+    margin: 20px 0;
+}
+
+.sink-gallery {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 20px;
+    flex-wrap: wrap; 
+}
+
+.sink-item {
+    flex: 1 1 30%; 
+    margin: 10px;
+    transition: transform 0.3s; /* Add transition for scaling effect */
+}
+
+.sink-item:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.sink-item img {
+    width: 100%; 
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.sink-item img:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+footer a {
+    color: rgb(192, 29, 29);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-left, .nav-right {
+        flex-direction: column; 
+        gap: 15px;
+    }
+
+    .site-title {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    #quote, h2, #Description, #TSD, #FB {
+        font-size: 1.5em;
+    }
+
+    .sink1, .sink2 {
+        height: 40vh;
+    }
+
+    .sink-item {
+        flex: 1 1 100%; 
+        margin: 10px 0; 
+    }
+}
+
+@media (max-width: 480px) {
+    .site-title {
+        font-size: 1.5em;
+    }
+    
+    #quote, h2, #Description, #TSD, #FB {
+        font-size: 1.2em;
+    }
+}
